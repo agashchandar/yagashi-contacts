@@ -27,3 +27,15 @@ Also make sure that MySQL is installed in your system.
 4. In the application.properties file, the password of the database is given as `root`, i.e., in the 9th line `spring.datasource.password=root`. Replace the `root` with your default MySQL database's password.
 5. In the 5th line of application.properties, the database URL is given `spring.datasource.url=jdbc:mysql://localhost:3306/smartcontact?serverTimezone=UTC`. Create a database called `smartcontact`(database name specified in the database URL) in MySQL.
 6. Now, run the application as SpringBoot App and manage your contacts !!
+
+## Screenshots
+
+<img src="contacts-home-page.PNG" width="600" height="300">
+<img src="contacts-register.PNG" width="600" height="300">
+<img src="contacts-login-1.PNG" width="600" height="300">
+<img src="contacts-home.PNG" width="600" height="300">
+<img src="contacts-view_contacts.PNG" width="600" height="300">
+<img src="contacts-add_contacts.PNG" width="600" height="300">
+<img src="contacts-profile.PNG" width="600" height="300">
+<img src="contacts-settings.PNG" width="600" height="300">
+<img src="contacts-logout.PNG" width="600" height="300">
