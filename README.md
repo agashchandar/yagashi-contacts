@@ -22,10 +22,10 @@ Also make sure that MySQL or PostgreSQL(your choice) is installed in your system
 ## How to run the project?
 
 1. Clone or download this repository to your local machine.
-2. Open the project in the IDE. When the project opens the dependencies of the are automatically installed.
+2. Open the project in the IDE. Wait till the dependencies of the project are automatically installed.
 3. Open the application.properties file from `/src/main/resources/application.properties`.
-4. In the application.properties file, the password of the database is given as `root`, i.e., in the 9th line `spring.datasource.password=root`. Replace the `root` with your default MySQL database's password.
-5. In the 5th line of application.properties, the database URL is given `spring.datasource.url=jdbc:mysql://localhost:3306/smartcontact?serverTimezone=UTC`. Create a database called `smartcontact`(database name specified in the database URL) in MySQL.
+4. In the application.properties file replace the root password with that of your MySQL password.
+5. In the 5th line of application.properties, the database URL is given `spring.datasource.url=jdbc:mysql://localhost:3306/smartcontact?serverTimezone=UTC`. Create a database called `smartcontact`(database name specified in the given database URL) in MySQL.
 6. Now, run the application as SpringBoot App and manage your contacts !!
 
 ## Screenshots
