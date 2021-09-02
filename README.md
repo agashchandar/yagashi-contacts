@@ -17,7 +17,7 @@ In order to download STS plugin in Eclipse:
 3. Search for Spring Tools Suite by typing STS in the textfield. A curated list of STSs appears. 
 4. Download the latest version of STS from that list and enjoy building SpringBoot applications.
 
-Also make sure that MySQL is installed in your system.
+Also make sure that MySQL or PostgreSQL(your choice) is installed in your system. If not you can use default in memory H2 database.
 
 ## How to run the project?
 
